@@ -29,3 +29,10 @@ venv.bak/
 # OS
 .DS_Store
 Thumbs.db
+
+# Build artifacts and packages
+finances_calculator_package/
+
+# Temporary files
+*.tmp
+*.temp

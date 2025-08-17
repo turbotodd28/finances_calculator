@@ -4,13 +4,14 @@
 import tkinter as tk
 from tkinter import ttk, filedialog
 import pandas as pd
+import os
 
 def main():
 
     def load_data():
         global dynamic_columns  # Explicitly declare as global
         file_path = filedialog.askopenfilename(
-            initialdir='/home/me/Downloads',
+            initialdir=os.path.expanduser('~/Downloads'),
             title="Select a CSV file", 
             filetypes=(("CSV files", "*.CSV"), ("All files", "*.*"))
         )

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Finances Calculator
+Comment=Bank statement calculator and analyzer
+Exec=/usr/local/bin/finances_calculator
+Icon=/usr/local/share/icons/chappelle_money_icon.png
+Terminal=false
+Categories=Office;Finance;
